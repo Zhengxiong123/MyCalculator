@@ -15,6 +15,7 @@
 		8A854B3D26608B40007C0009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A854B3B26608B40007C0009 /* LaunchScreen.storyboard */; };
 		8A854B4826608B40007C0009 /* MyCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A854B4726608B40007C0009 /* MyCalculatorTests.swift */; };
 		8A854B5326608B40007C0009 /* MyCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A854B5226608B40007C0009 /* MyCalculatorUITests.swift */; };
+		8A854B9D26609C22007C0009 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A854B9C26609C22007C0009 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8A854B4E26608B40007C0009 /* MyCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A854B5226608B40007C0009 /* MyCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalculatorUITests.swift; sourceTree = "<group>"; };
 		8A854B5426608B40007C0009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A854B9C26609C22007C0009 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		8A854B2F26608B3E007C0009 /* MyCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				8A854B9C26609C22007C0009 /* Calculator.swift */,
 				8A854B3026608B3E007C0009 /* AppDelegate.swift */,
 				8A854B3226608B3E007C0009 /* SceneDelegate.swift */,
 				8A854B3426608B3E007C0009 /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A854B3526608B3E007C0009 /* ViewController.swift in Sources */,
+				8A854B9D26609C22007C0009 /* Calculator.swift in Sources */,
 				8A854B3126608B3E007C0009 /* AppDelegate.swift in Sources */,
 				8A854B3326608B3E007C0009 /* SceneDelegate.swift in Sources */,
 			);
